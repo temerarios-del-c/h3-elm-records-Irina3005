@@ -55,6 +55,7 @@ myLaptop =
     { ram = "16GB", model = "MacBook Pro", brand = "Apple", screenSize = "13 pulgadas" }
 
 
+main : Html.Html msg
 main =
     div []
         [ h1 [] [ text "My laptop" ]
