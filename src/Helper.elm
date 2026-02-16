@@ -23,7 +23,7 @@ languageNames lista =
     List.map .name lista
 
 
-auxiliar : { name : String, uType : String }
+auxiliar : { name : String, uType : String } -> String
 auxiliar lista2 =
     if lista2.name == "Student" then
         lista2.name
