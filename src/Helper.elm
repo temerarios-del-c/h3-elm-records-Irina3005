@@ -29,7 +29,7 @@ auxiliar lista2 =
         lista2.name
 
     else
-        " "
+        ""
 
 
 onlyStudents : List { name : String, uType : String } -> List String
