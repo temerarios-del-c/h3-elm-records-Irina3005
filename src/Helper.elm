@@ -37,11 +37,11 @@ onlyStudents lista =
     List.map auxiliar lista
 
 
-type alias Videogames =
+type alias Videogame =
     { title : String, releaseYear : Int, available : Bool, downloads : Int, genres : List String }
 
 
-getVideogameGenres : List Videogames -> List (List String)
+getVideogameGenres : List Videogame -> List (List String)
 getVideogameGenres listado =
     List.map .genres listado
 
