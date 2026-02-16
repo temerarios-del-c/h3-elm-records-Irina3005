@@ -32,7 +32,7 @@ auxiliar lista2 =
         ""
 
 
-onlyStudents : List { name : String, uType : String } -> String
+onlyStudents : List { name : String, uType : String } -> List String
 onlyStudents lista =
     List.map auxiliar lista
 
