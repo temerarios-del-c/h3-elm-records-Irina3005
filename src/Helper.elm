@@ -25,7 +25,7 @@ languageNames lista =
 
 auxiliar : { name : String, uType : String } -> String
 auxiliar lista2 =
-    if lista2.name == "Student" then
+    if lista2.uType == "Student" then
         lista2.name
 
     else
